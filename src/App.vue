@@ -1,9 +1,23 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <v-toolbar dark color="primary">
+
+      <v-toolbar-title class="white--text">Josh Smith</v-toolbar-title>
+
+      <v-spacer></v-spacer>
+
+      <v-btn icon>
+        <v-icon>apps</v-icon>
+      </v-btn>
+
+      <v-btn icon>
+        <v-icon>refresh</v-icon>
+      </v-btn>
+
+      <v-btn icon>
+        <v-icon>more_vert</v-icon>
+      </v-btn>
+    </v-toolbar>
     <router-view/>
   </div>
 </template>
